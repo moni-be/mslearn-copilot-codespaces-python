@@ -39,8 +39,19 @@ def generate(body: Body):
     return {'token': string}
 
 
+"""
+Class code provided when doing excercise
+
+"""
+
+
 class Text(BaseModel):
     text: str
+
+
+"""
+Generated code by Copilote lines === post/checksum
+"""
 
 
 @app.post('/checksum')
